@@ -1,0 +1,1137 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Report Card</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      * {
+        font-family: sans-serif;
+      }
+
+      @media print {
+        .print {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body class="p-4">
+    <div class="p-4">
+      <div class="mb-4 flex gap-[40px] px-[20px]">
+        <div>Logo</div>
+        <div class="flex-1">
+          <h1 class="text-2xl font-bold px-[20px]">
+            ZOHRA MEMORIAL PUBLIC SCHOOL
+          </h1>
+          <div class="flex gap-[50px] mt-2">
+            <span
+              >Enrollment No
+              <input
+                type="text"
+                class="border-b mt-[-5px] outline-none border-dotted border-black w-[250px]"
+              />
+            </span>
+            <span>
+              Roll No
+              <input
+                type="text"
+                class="border-b mt-[-5px] outline-none border-dotted border-black w-[250px]"
+              />
+            </span>
+          </div>
+        </div>
+      </div>
+      <table class="w-full border-collapse border-2 border-black text-sm">
+        <!-- <thead> -->
+        <tr>
+          <th class="border-2 border-black p-1 w-[35px]" rowspan="3">S. No.</th>
+          <th class="border-2 border-black p-1" rowspan="3">Subject</th>
+          <th colspan="2" class="border-2 border-black p-1">Unit Test</th>
+          <th colspan="2" class="border-2 border-black p-1">
+            Half Yearly Exam
+          </th>
+          <th colspan="2" class="border-2 border-black p-1">Unit Test</th>
+          <th colspan="2" class="border-2 border-black p-1">Annual Exam</th>
+          <th rowspan="2" colspan="4" class="border-2 border-black p-1">
+            Grand Total
+          </th>
+          <th class="border-2 border-black p-1 text-lg" rowspan="2">Remarks</th>
+        </tr>
+        <tr>
+          <th class="border-2 border-black p-1" colspan="2">I Test</th>
+          <th class="border-2 border-black p-1" colspan="2">I Exam</th>
+          <th class="border-2 border-black p-1" colspan="2">II Test</th>
+          <th class="border-2 border-black p-1" colspan="2">II Exam</th>
+        </tr>
+        <tr>
+          <th class="border-2 border-black p-1">M.M.</th>
+          <th class="border-2 border-black p-1">M.O.</th>
+          <th class="border-2 border-black p-1">M.M.</th>
+          <th class="border-2 border-black p-1">M.O.</th>
+          <th class="border-2 border-black p-1">M.M.</th>
+          <th class="border-2 border-black p-1">M.O.</th>
+          <th class="border-2 border-black p-1">M.M.</th>
+          <th class="border-2 border-black p-1">M.O.</th>
+          <th class="border-2 border-black p-1">M.M.</th>
+          <th class="border-2 border-black p-1">M.O.</th>
+          <th class="border-2 border-black p-1">%age</th>
+          <th class="border-2 border-black p-1">Grade</th>
+          <td
+            rowspan="4"
+            class="border-2 border-black p-1 text-center"
+            style="vertical-align: bottom"
+          >
+            Position in Class
+          </td>
+        </tr>
+        <!-- </thead> -->
+        <!-- <tbody> -->
+        <!-- Repeat for each subject -->
+        <tr>
+          <td class="border-2 border-black p-1 text-center font-bold">1</td>
+          <td class="border-2 border-black p-1">English</td>
+          <td class="border-2 border-black p-1 col-1">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-2">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-3">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-4">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-5">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-6">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-7">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-8">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-9">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-10">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-11">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-12">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+        </tr>
+        <tr>
+          <td class="border-2 border-black p-1 text-center font-bold">2</td>
+          <td class="border-2 border-black p-1">Mathematics</td>
+          <td class="border-2 border-black p-1 col-1">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-2">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-3">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-4">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-5">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-6">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-7">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-8">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-9">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-10">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-11">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-12">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+        </tr>
+        <tr>
+          <td class="border-2 border-black p-1 text-center font-bold">3</td>
+          <td class="border-2 border-black p-1">Social Studies</td>
+          <td class="border-2 border-black p-1 col-1">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-2">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-3">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-4">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-5">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-6">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-7">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-8">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-9">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-10">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-11">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-12">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+        </tr>
+        <tr>
+          <td class="border-2 border-black p-1 text-center font-bold">4</td>
+          <td class="border-2 border-black p-1">Science</td>
+          <td class="border-2 border-black p-1 col-1">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-2">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-3">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-4">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-5">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-6">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-7">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-8">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-9">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-10">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-11">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-12">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td
+            rowspan="5"
+            class="border-2 border-black p-1 text-center"
+            style="vertical-align: bottom"
+          >
+            Percentage
+          </td>
+        </tr>
+        <tr>
+          <td class="border-2 border-black p-1 text-center font-bold">5</td>
+          <td class="border-2 border-black p-1">G.K.</td>
+          <td class="border-2 border-black p-1 col-1">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-2">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-3">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-4">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-5">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-6">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-7">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-8">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-9">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-10">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-11">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-12">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+        </tr>
+        <tr>
+          <td class="border-2 border-black p-1 text-center font-bold">6</td>
+          <td class="border-2 border-black p-1">Computer</td>
+          <td class="border-2 border-black p-1 col-1">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-2">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-3">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-4">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-5">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-6">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-7">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-8">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-9">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-10">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-11">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-12">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+        </tr>
+        <tr>
+          <td class="border-2 border-black p-1 text-center font-bold">7</td>
+          <td class="border-2 border-black p-1">Hindi</td>
+          <td class="border-2 border-black p-1 col-1">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-2">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-3">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-4">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-5">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-6">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-7">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-8">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-9">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-10">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-11">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-12">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+        </tr>
+        <tr>
+          <td class="border-2 border-black p-1 text-center font-bold">8</td>
+          <td class="border-2 border-black p-1">Urdu</td>
+          <td class="border-2 border-black p-1 col-1">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-2">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-3">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-4">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-5">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-6">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-7">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-8">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-9">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-10">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-11">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-12">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+        </tr>
+        <tr>
+          <td class="border-2 border-black p-1 text-center font-bold">9</td>
+          <td class="border-2 border-black p-1">Arabic</td>
+          <td class="border-2 border-black p-1 col-1">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-2">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-3">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-4">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-5">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-6">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-7">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-8">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-9">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-10">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-11">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-12">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td
+            rowspan="5"
+            class="border-2 border-black p-1 text-center"
+            style="vertical-align: bottom"
+          >
+            Division
+          </td>
+        </tr>
+        <tr>
+          <td class="border-2 border-black p-1 text-center font-bold">10</td>
+          <td class="border-2 border-black p-1">Art</td>
+          <td class="border-2 border-black p-1 col-1">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-2">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-3">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-4">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-5">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-6">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-7">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-8">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-9">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-10">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-11">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-12">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+        </tr>
+        <tr>
+          <td class="border-2 border-black p-1 text-center font-bold">11</td>
+          <td class="border-2 border-black p-1">Sanskrit</td>
+          <td class="border-2 border-black p-1 col-1">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-2">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-3">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-4">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-5">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-6">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-7">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-8">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-9">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-10">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-11">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-12">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+        </tr>
+        <tr>
+          <td class="border-2 border-black p-1 text-center font-bold h-[30px]">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-1">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-2">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-3">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-4">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-5">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-6">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-7">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-8">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-9">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-10">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-11">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-12">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+        </tr>
+        <tr>
+          <td class="border-2 border-black p-1 text-center font-bold h-[30px]">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-1">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-2">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-3">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-4">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-5">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-6">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-7">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-8">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-9">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-10">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-11">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-12">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+        </tr>
+        <tr>
+          <td class="border-2 border-black p-1 text-center font-bold h-[30px]">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-1">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-2">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-3">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-4">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-5">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-6">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-7">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-8">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-9">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-10">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-11">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+          <td class="border-2 border-black p-1 col-12">
+            <input type="text" class="border-none outline-none w-full px-1" />
+          </td>
+
+          <td
+            rowspan="5"
+            class="border-2 border-black p-1 text-center"
+            style="vertical-align: bottom"
+          >
+            Result
+          </td>
+        </tr>
+        <!-- End of subjects -->
+        <tr>
+          <td
+            colspan="2"
+            class="border-2 border-black p-1 text-right font-bold"
+          >
+            Total
+          </td>
+          <td class="border-2 border-black p-1 total-col-1">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+          <td class="border-2 border-black p-1 total-col-2">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+          <td class="border-2 border-black p-1 total-col-3">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+          <td class="border-2 border-black p-1 total-col-4">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+          <td class="border-2 border-black p-1 total-col-5">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+          <td class="border-2 border-black p-1 total-col-6">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+          <td class="border-2 border-black p-1 total-col-7">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+          <td class="border-2 border-black p-1 total-col-8">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+          <td class="border-2 border-black p-1 total-col-9">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+          <td class="border-2 border-black p-1 total-col-10">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+          <td class="border-2 border-black p-1 total-col-11">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+          <td class="border-2 border-black p-1 total-col-12">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+        </tr>
+        <tr>
+          <td
+            colspan="2"
+            class="border-2 border-black p-1 text-right font-bold"
+          >
+            Percentage
+          </td>
+          <td class="border-2 border-black p-1 percentage-col-1">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+          <td class="border-2 border-black p-1 percentage-col-2">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+          <td class="border-2 border-black p-1 percentage-col-3">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+          <td class="border-2 border-black p-1 percentage-col-4">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+          <td class="border-2 border-black p-1 percentage-col-5">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+          <td class="border-2 border-black p-1 percentage-col-6">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+          <td class="border-2 border-black p-1 percentage-col-7">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+          <td class="border-2 border-black p-1 percentage-col-8">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+          <td class="border-2 border-black p-1 percentage-col-9">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+          <td class="border-2 border-black p-1 percentage-col-10">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+          <td class="border-2 border-black p-1 percentage-col-11">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+          <td class="border-2 border-black p-1 percentage-col-12">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+        </tr>
+        <tr>
+          <td
+            colspan="2"
+            class="border-2 border-black p-1 text-right font-bold"
+          >
+            Attendance
+          </td>
+          <td class="border-2 border-black p-1 attendance-col-1">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+          <td class="border-2 border-black p-1 attendance-col-2">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+          <td class="border-2 border-black p-1 attendance-col-3">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+          <td class="border-2 border-black p-1 attendance-col-4">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+          <td class="border-2 border-black p-1 attendance-col-5">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+          <td class="border-2 border-black p-1 attendance-col-6">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+          <td class="border-2 border-black p-1 attendance-col-7">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+          <td class="border-2 border-black p-1 attendance-col-8">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+          <td class="border-2 border-black p-1 attendance-col-9">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+          <td class="border-2 border-black p-1 attendance-col-10">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+          <td class="border-2 border-black p-1 attendance-col-11">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+          <td class="border-2 border-black p-1 attendance-col-12">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+        </tr>
+        <tr>
+          <td
+            colspan="2"
+            class="border-2 border-black p-1 text-right font-bold"
+          >
+            GRAND TOTAL
+          </td>
+          <td class="border-2 border-black p-1 grand-total-col-1">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+          <td class="border-2 border-black p-1 grand-total-col-2">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+          <td class="border-2 border-black p-1 grand-total-col-3">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+          <td class="border-2 border-black p-1 grand-total-col-4">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+          <td class="border-2 border-black p-1 grand-total-col-5">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+          <td class="border-2 border-black p-1 grand-total-col-6">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+          <td class="border-2 border-black p-1 grand-total-col-7">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+          <td class="border-2 border-black p-1 grand-total-col-8">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+          <td class="border-2 border-black p-1 grand-total-col-9">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+          <td class="border-2 border-black p-1 grand-total-col-10">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+          <td class="border-2 border-black p-1 grand-total-col-11">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+          <td class="border-2 border-black p-1 grand-total-col-12">
+            <input
+              type="text"
+              class="border-none outline-none w-full px-1"
+              readonly
+            />
+          </td>
+        </tr>
+        <tr class="text-center">
+          <td
+            colspan="5"
+            class="border-2 border-black p-1 h-[110px]"
+            style="vertical-align: bottom"
+          >
+            <i> Parent's Signature </i>
+          </td>
+          <td
+            colspan="5"
+            style="vertical-align: bottom"
+            class="border-2 border-black p-1"
+          >
+            <i> Class Teacher Signature </i>
+          </td>
+          <td
+            colspan="5"
+            style="vertical-align: bottom"
+            class="border-2 border-black p-1"
+          >
+            <i> Principal Signature </i>
+          </td>
+        </tr>
+        <!-- </tbody> -->
+      </table>
+    </div>
+    <div class="text-center print">
+      <button
+        onclick="window.print()"
+        class="btn bg-blue-300 border-2 border-blue-500 px-2 rounded text-black cursor-pointer"
+      >
+        Print
+      </button>
+    </div>
+
+    <script>
+      // all columns are here
+      const col1 = document.querySelectorAll(".col-1");
+      const col2 = document.querySelectorAll(".col-2");
+      const col3 = document.querySelectorAll(".col-3");
+      const col4 = document.querySelectorAll(".col-4");
+      const col5 = document.querySelectorAll(".col-5");
+      const col6 = document.querySelectorAll(".col-6");
+      const col7 = document.querySelectorAll(".col-7");
+      const col8 = document.querySelectorAll(".col-8");
+      const col9 = document.querySelectorAll(".col-9");
+      const col10 = document.querySelectorAll(".col-10");
+      const col11 = document.querySelectorAll(".col-11");
+      const col12 = document.querySelectorAll(".col-12");
+
+      // total marks columns
+
+      const totalCol1 = document.querySelector(".total-col-1");
+      const totalCol2 = document.querySelector(".total-col-2");
+      const totalCol3 = document.querySelector(".total-col-3");
+      const totalCol4 = document.querySelector(".total-col-4");
+      const totalCol5 = document.querySelector(".total-col-5");
+      const totalCol6 = document.querySelector(".total-col-6");
+      const totalCol7 = document.querySelector(".total-col-7");
+      const totalCol8 = document.querySelector(".total-col-8");
+      const totalCol9 = document.querySelector(".total-col-9");
+      const totalCol10 = document.querySelector(".total-col-10");
+      const totalCol11 = document.querySelector(".total-col-11");
+      const totalCol12 = document.querySelector(".total-col-12");
+
+      // percentage columns
+
+      const percentageCol1 = document.querySelector(".percentage-col-1");
+      const percentageCol2 = document.querySelector(".percentage-col-2");
+      const percentageCol3 = document.querySelector(".percentage-col-3");
+      const percentageCol4 = document.querySelector(".percentage-col-4");
+      const percentageCol5 = document.querySelector(".percentage-col-5");
+      const percentageCol6 = document.querySelector(".percentage-col-6");
+      const percentageCol7 = document.querySelector(".percentage-col-7");
+      const percentageCol8 = document.querySelector(".percentage-col-8");
+      const percentageCol9 = document.querySelector(".percentage-col-9");
+      const percentageCol10 = document.querySelector(".percentage-col-10");
+      const percentageCol11 = document.querySelector(".percentage-col-11");
+      const percentageCol12 = document.querySelector(".percentage-col-12");
+    </script>
+    <script src="calculatePercentage.js"></script>
+    <script src="calculateTotal.js"></script>
+  </body>
+</html>
